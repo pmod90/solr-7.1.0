@@ -1,16 +1,50 @@
-2018-02-13 23:39:47.889 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
-2018-02-13 23:39:48.307 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.1.0
-2018-02-13 23:39:48.307 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
-2018-02-13 23:39:48.307 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/parthmody/solr-7.1.0, Default config dir: /Users/parthmody/solr-7.1.0/server/solr/configsets/_default/conf
-2018-02-13 23:39:48.320 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-02-13T23:39:48.309Z
-2018-02-13 23:39:48.321 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
-2018-02-13 23:39:48.336 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /Users/parthmody/solr-7.1.0/server/solr
-2018-02-13 23:39:48.342 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/parthmody/solr-7.1.0/server/solr/solr.xml
-2018-02-13 23:39:48.777 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /Users/parthmody/solr-7.1.0/server/solr
-2018-02-13 23:39:48.829 INFO  (main) [   ] o.e.j.s.Server Started @1413ms
-2018-02-13 23:39:58.261 INFO  (qtp575335780-18) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
-2018-02-13 23:39:58.783 INFO  (qtp575335780-31) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1518565198662} status=0 QTime=20
-2018-02-13 23:39:58.804 INFO  (qtp575335780-29) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565198663} status=0 QTime=40
-2018-02-13 23:40:01.414 INFO  (qtp575335780-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1518565198662} status=0 QTime=0
-2018-02-13 23:40:01.432 INFO  (qtp575335780-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565198663} status=0 QTime=18
-2018-02-13 23:40:01.458 INFO  (qtp575335780-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565198663} status=0 QTime=21
+2018-02-13 23:47:05.649 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2018-02-13 23:47:05.964 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.1.0
+2018-02-13 23:47:05.965 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-02-13 23:47:05.965 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/parthmody/solr-7.1.0, Default config dir: /Users/parthmody/solr-7.1.0/server/solr/configsets/_default/conf
+2018-02-13 23:47:05.977 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-02-13T23:47:05.966Z
+2018-02-13 23:47:05.978 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-02-13 23:47:05.989 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /Users/parthmody/solr-7.1.0/server/solr
+2018-02-13 23:47:05.994 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/parthmody/solr-7.1.0/server/solr/solr.xml
+2018-02-13 23:47:06.398 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /Users/parthmody/solr-7.1.0/server/solr
+2018-02-13 23:47:06.448 INFO  (main) [   ] o.e.j.s.Server Started @1219ms
+2018-02-13 23:47:23.951 INFO  (qtp575335780-29) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-02-13 23:47:25.104 INFO  (qtp575335780-31) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1518565644378} status=0 QTime=23
+2018-02-13 23:47:25.128 INFO  (qtp575335780-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565644379} status=0 QTime=47
+2018-02-13 23:47:25.186 INFO  (qtp575335780-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565644379} status=0 QTime=47
+2018-02-13 23:48:10.210 INFO  (qtp575335780-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=22
+2018-02-13 23:48:10.239 INFO  (qtp575335780-29) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=14
+2018-02-13 23:48:10.245 INFO  (qtp575335780-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=films&action=STATUS&wt=json} status=0 QTime=0
+2018-02-13 23:48:10.280 INFO  (qtp575335780-29) [   ] o.a.s.h.a.CoreAdminOperation core create command name=films&action=CREATE&instanceDir=films&wt=json
+2018-02-13 23:48:10.327 INFO  (qtp575335780-29) [   x:films] o.a.s.c.SolrResourceLoader [films] Added 53 libs to classloader, from paths: [/Users/parthmody/solr-7.1.0/contrib/clustering/lib, /Users/parthmody/solr-7.1.0/contrib/extraction/lib, /Users/parthmody/solr-7.1.0/contrib/langid/lib, /Users/parthmody/solr-7.1.0/contrib/velocity/lib, /Users/parthmody/solr-7.1.0/dist]
+2018-02-13 23:48:10.432 INFO  (qtp575335780-29) [   x:films] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.1.0
+2018-02-13 23:48:10.527 INFO  (qtp575335780-29) [   x:films] o.a.s.s.IndexSchema [films] Schema name=default-config
+2018-02-13 23:48:10.876 INFO  (qtp575335780-29) [   x:films] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-02-13 23:48:10.900 INFO  (qtp575335780-29) [   x:films] o.a.s.c.CoreContainer Creating SolrCore 'films' using configuration from instancedir /Users/parthmody/solr-7.1.0/server/solr/films, trusted=true
+2018-02-13 23:48:10.913 INFO  (qtp575335780-29) [   x:films] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-02-13 23:48:10.917 INFO  (qtp575335780-29) [   x:films] o.a.s.c.SolrCore [[films] ] Opening new SolrCore at [/Users/parthmody/solr-7.1.0/server/solr/films], dataDir=[/Users/parthmody/solr-7.1.0/server/solr/films/data/]
+2018-02-13 23:48:10.980 INFO  (qtp575335780-29) [   x:films] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-02-13 23:48:11.195 INFO  (qtp575335780-29) [   x:films] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-02-13 23:48:11.195 INFO  (qtp575335780-29) [   x:films] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-02-13 23:48:11.201 INFO  (qtp575335780-29) [   x:films] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-02-13 23:48:11.201 INFO  (qtp575335780-29) [   x:films] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-02-13 23:48:11.217 INFO  (qtp575335780-29) [   x:films] o.a.s.s.SolrIndexSearcher Opening [Searcher@732bc33c[films] main]
+2018-02-13 23:48:11.225 INFO  (qtp575335780-29) [   x:films] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/parthmody/solr-7.1.0/server/solr/films/conf
+2018-02-13 23:48:11.235 INFO  (qtp575335780-29) [   x:films] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-02-13 23:48:11.239 INFO  (qtp575335780-29) [   x:films] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-02-13 23:48:11.246 INFO  (qtp575335780-29) [   x:films] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-02-13 23:48:11.284 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@732bc33c[films] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-02-13 23:48:11.284 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-02-13 23:48:11.284 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-02-13 23:48:11.287 INFO  (qtp575335780-29) [   x:films] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1592331538306957312
+2018-02-13 23:48:11.289 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.SolrCore [films] Registered new searcher Searcher@732bc33c[films] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-02-13 23:48:11.291 INFO  (qtp575335780-29) [   x:films] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=films&action=CREATE&instanceDir=films&wt=json} status=0 QTime=1011
+2018-02-13 23:48:15.759 INFO  (qtp575335780-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1518565695664} status=0 QTime=0
+2018-02-13 23:48:15.772 INFO  (qtp575335780-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565695665} status=0 QTime=13
+2018-02-13 23:48:15.789 INFO  (qtp575335780-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565695665} status=0 QTime=13
+2018-02-13 23:48:18.068 INFO  (qtp575335780-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1518565695664} status=0 QTime=0
+2018-02-13 23:48:18.076 INFO  (qtp575335780-31) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1518565698055} status=0 QTime=7
+2018-02-13 23:48:18.079 INFO  (qtp575335780-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1518565695665&ts=1518565695665} status=503 QTime=2
+2018-02-13 23:48:18.079 INFO  (qtp575335780-22) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/replication params={wt=json&command=details&_=1518565698055} status=0 QTime=2
+2018-02-13 23:48:18.109 INFO  (qtp575335780-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565695665} status=0 QTime=38
+2018-02-13 23:48:18.109 INFO  (qtp575335780-29) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/system params={wt=json&_=1518565698055} status=0 QTime=32
