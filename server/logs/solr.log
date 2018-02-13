@@ -1,0 +1,16 @@
+2018-02-13 23:39:47.889 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2018-02-13 23:39:48.307 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.1.0
+2018-02-13 23:39:48.307 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-02-13 23:39:48.307 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/parthmody/solr-7.1.0, Default config dir: /Users/parthmody/solr-7.1.0/server/solr/configsets/_default/conf
+2018-02-13 23:39:48.320 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-02-13T23:39:48.309Z
+2018-02-13 23:39:48.321 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-02-13 23:39:48.336 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /Users/parthmody/solr-7.1.0/server/solr
+2018-02-13 23:39:48.342 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/parthmody/solr-7.1.0/server/solr/solr.xml
+2018-02-13 23:39:48.777 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /Users/parthmody/solr-7.1.0/server/solr
+2018-02-13 23:39:48.829 INFO  (main) [   ] o.e.j.s.Server Started @1413ms
+2018-02-13 23:39:58.261 INFO  (qtp575335780-18) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-02-13 23:39:58.783 INFO  (qtp575335780-31) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1518565198662} status=0 QTime=20
+2018-02-13 23:39:58.804 INFO  (qtp575335780-29) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565198663} status=0 QTime=40
+2018-02-13 23:40:01.414 INFO  (qtp575335780-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1518565198662} status=0 QTime=0
+2018-02-13 23:40:01.432 INFO  (qtp575335780-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565198663} status=0 QTime=18
+2018-02-13 23:40:01.458 INFO  (qtp575335780-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1518565198663} status=0 QTime=21
